@@ -1,0 +1,8 @@
+file = open('dna.text', 'r')
+sequence = file.read()
+sequence = sequence.replace(' ', '').replace('\n', '').replace('\r', '')
+print("We are going to analyse the sequence: ", sequence)
+sorted_list = set(list(sequence))
+print("The total number of basis is: ", len(sequence))
+print("There are ", len(sorted_list), " different basis in the DNA sequence.")
+file.close()
