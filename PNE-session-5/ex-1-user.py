@@ -1,4 +1,5 @@
-seq = 'ACGGTAGCAAGATCGATACGGTCAGT'
+seq = input( "Please enter a DNA sequence: " )
+
 
 number_A = 0
 number_T = 0
