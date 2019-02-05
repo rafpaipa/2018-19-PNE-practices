@@ -1,3 +1,4 @@
+
 seq = input( "Please enter a DNA sequence: " )
 
 number_A = 0
