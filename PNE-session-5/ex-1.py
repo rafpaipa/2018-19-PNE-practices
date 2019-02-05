@@ -5,6 +5,7 @@ number_T = 0
 number_G = 0
 number_C = 0
 
+
 for i in range(len(seq)):
    if seq[i] == "A":
        number_A = number_A + 1
