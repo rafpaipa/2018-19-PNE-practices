@@ -14,6 +14,7 @@ for i in range(len(seq)):
        number_T = number_T + 1
    if seq[i] == "G":
        number_G = number_G + 1
+
 print("The total number of bases is: ", len(seq))
 print("")
 print("The number of 'A' bases is:", number_A)
